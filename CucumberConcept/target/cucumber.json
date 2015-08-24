@@ -1,0 +1,82 @@
+[
+  {
+    "id": "login-action",
+    "description": "",
+    "name": "Login Action",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "login-action;successful-login-with-valid-credentials",
+        "description": "",
+        "name": "Successful Login with Valid Credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 8935339637,
+              "status": "passed"
+            },
+            "name": "User is on Home Page",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "location": "Test_Steps.user_is_on_Home_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 343141489,
+              "status": "passed"
+            },
+            "name": "User Navigate to LogIn Page",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "location": "Test_Steps.user_Navigate_to_LogIn_Page()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4835796169,
+              "status": "passed"
+            },
+            "name": "User enters UserName and Password",
+            "keyword": "And ",
+            "line": 6,
+            "match": {
+              "location": "Test_Steps.user_enters_UserName_and_Password()"
+            }
+          },
+          {
+            "result": {
+              "duration": 122301,
+              "status": "passed"
+            },
+            "name": "Message displayed Login Successfully",
+            "keyword": "Then ",
+            "line": 7,
+            "match": {
+              "location": "Test_Steps.message_displayed_Login_Successfully()"
+            }
+          },
+          {
+            "result": {
+              "duration": 586479515,
+              "status": "passed"
+            },
+            "name": "Browser close",
+            "keyword": "Then ",
+            "line": 8,
+            "match": {
+              "location": "Test_Steps.Browser_close()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "features/myfeature.feature"
+  }
+]
